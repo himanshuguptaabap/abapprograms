@@ -44,9 +44,9 @@ CLASS cl_send_mail IMPLEMENTATION.
  lo_send_email->set_document( cl_document_bcs=>create_document(
  i_type = 'RAW'
 i_text = VALUE #( ( line = 'Dear Recipient,' )
- ( line = 'This is Test Email Program.' )
- ( line = 'Thank You' ) )
- i_subject = 'Test Email' ) ).
+                  ( line = 'This is Test Email Program.' )
+                  ( line = 'Thank You' ) )
+                  i_subject = 'Test Email' ) ).
  ENDMETHOD.
  
  METHOD : add_receipent.
