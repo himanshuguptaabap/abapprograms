@@ -2,7 +2,15 @@ Using subroutine.
 
 This is something intresting that you would love.
 
+
 "Using Recursion
+
+We are calling a subroutine inside the subroutine till condition is met.
+
+The first 15 numbers in the sequence, from F0 to F14, are
+
+0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377.
+
 REPORT zrg_fibonacci.
 
 PARAMETERS : number TYPE int4.
